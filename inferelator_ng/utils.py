@@ -54,7 +54,7 @@ class RDriver:
     target_directory = "/tmp"
 
     def path(self, filename):
-        result = os.path.join(self.target_directory, filename).replace('\\', '/')
+        result = os.path.join(self.target_directory, filename)
         return r_path(result)
 
 
