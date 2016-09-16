@@ -45,6 +45,7 @@ class DesignResponseCalculator:
         design.to_csv(self.design_file)
         response.to_csv(self.response_file)
 
+
 def calculate_design_and_response(metadata_df,
                                   expression_df,
                                   del_t_min,
